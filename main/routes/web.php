@@ -16,6 +16,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/test',function () {
-    return 'TEST';
-});
+Route::get('/test','Member@test');
