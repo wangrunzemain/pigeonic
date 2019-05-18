@@ -1,8 +1,14 @@
 <?php
 
-namespace App\Http\Controllers
+namespace App\Http\Controllers;
 
-class Member extend Controllers
+use App\User;
+use App\Http\Controller;
+
+class Member extends Controllers
 {
-
+  public function test ()
+  {
+    return "main";
+  }
 }
