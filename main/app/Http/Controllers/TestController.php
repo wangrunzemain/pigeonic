@@ -34,7 +34,7 @@ class TestController extends Controller
   
   public function mysqlTest ()
   {
-    $before = DB::release('select * from TestForm where target = ?',[0]);
+    $before = DB::select('select * from TestForm where target = ?',[0]);
     echo "$before";
   }
 }
