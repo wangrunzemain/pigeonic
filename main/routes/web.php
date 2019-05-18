@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/test','MemberController@test');
+Route::get('/phpinfo','MemberController@test');
