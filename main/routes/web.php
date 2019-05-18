@@ -22,3 +22,4 @@ Route::prefix('test')->group(function ()
   Route::get('redis','TestController@redisTest');
   Route::get('mysql','TestController@mysqlTest');
 });
+Route::get('test1','Test@hello');
