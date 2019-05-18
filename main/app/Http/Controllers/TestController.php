@@ -13,6 +13,7 @@ class TestController extends Controller
     $before = Redis::get('redisTestTarget');
     Redis::set('redisTestTarget',1);
     $result = Redis::get('redisTest');
+    Redis::set('redisTest',0);
     if ($before == 0)
     {
       echo 'Read : succeed <br />';
@@ -23,7 +24,6 @@ class TestController extends Controller
     }
     if ($result == 1)
    {
-      Redis::set('redisTest',0);
       return 'Write : succeed';
     }
     else
