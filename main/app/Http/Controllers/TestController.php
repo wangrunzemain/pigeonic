@@ -12,8 +12,8 @@ class TestController extends Controller
   {
     $before = Redis::get('redisTestTarget');
     Redis::set('redisTestTarget',1);
-    $result = Redis::get('redisTest');
-    Redis::set('redisTest',0);
+    $result = Redis::get('redisTestTarget');
+    Redis::set('redisTestTarget',0);
     if ($before == 0)
     {
       echo 'Read : succeed <br />';
