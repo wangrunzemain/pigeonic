@@ -34,7 +34,11 @@ class TestController extends Controller
   
   public function mysqlTest ()
   {
-    $before = DB::select('select * from TestForm where target = ?',[0]);
-    var_dump($before);
+    $before_unit = DB::select('select * from TestForm where target = ?',[0]);
+    foreach($before_unit as $before_each)
+    {
+      $before = $before_each;
+    }
+    echo "$before";
   }
 }
