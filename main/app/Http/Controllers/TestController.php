@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Conttollers\Controller;
+use App\Http\Controllers\Controller;
 use Redis;
 
 class TestController extends Controller
