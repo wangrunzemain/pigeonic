@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Conttollers\Controller;
 use Redis;
 
-class Test extends Controller
+class TestController extends Controller
 {
   public function redisTest ()
   {
