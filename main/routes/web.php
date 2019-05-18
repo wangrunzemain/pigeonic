@@ -15,5 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('phpinfo','MemberController@test');
 
-Route::get('/phpinfo','MemberController@test');
+Route::prefix('test')->group(function ()
+{
+  Route::get('redis','TestController@redisTest');
+});
