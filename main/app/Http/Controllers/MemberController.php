@@ -10,5 +10,6 @@ class MemberController extends Controller
   public function test ()
   {
     phpinfo();
+    
   }
 }
