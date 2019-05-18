@@ -39,6 +39,6 @@ class TestController extends Controller
     {
       $before = $before_each;
     }
-    echo "$before";
+    echo "$before_each";
   }
 }
