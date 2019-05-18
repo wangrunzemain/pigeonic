@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
-use App\Http\Controller;
+use App\Http\Controllers\Controller;
 
 class MemberController extends Controller
 {
