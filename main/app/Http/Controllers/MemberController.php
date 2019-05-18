@@ -9,6 +9,6 @@ class MemberController extends Controller
 {
   public function test ()
   {
-    return "phpinfo()";
+    echo phpinfo();
   }
 }
