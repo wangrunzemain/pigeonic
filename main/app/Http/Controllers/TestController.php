@@ -37,7 +37,6 @@ class TestController extends Controller
     $before_unit = DB::select('select * from TestForm where target = ?',[0]);
     foreach($before_unit as $before_each)
     {
-      echo "$before_each";
       $before = $before_each->target;
     }
     DB::update('update TestForm set target = 1 where target = ?',[0]);
