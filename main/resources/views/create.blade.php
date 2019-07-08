@@ -1,20 +1,7 @@
 @extends('layouts.app')
-
+<script src="https://cdn.bootcss.com/markdown.js/0.5.0/markdown.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css"></script>
 @section('head')
-<link rel="stylesheet" href="/css/editormd.min.css"/>
-<script src="/js/editormd.min.js"></script>
-<script type="text/javascript">
-//    调用编辑器
-var testEditor;
-$(function() {
-    testEditor = editormd("editormd", {
-        width   : "1000px",
-        height  : 640,
-        syncScrolling : "single",
-        path    : "/lib/"
-    });
-  });
-</script>
 @endsection
 
 @section('content')
@@ -47,9 +34,7 @@ $(function() {
                               <option value="杂谈">
                             </datalist>
                       <br />
-                      <div id="editormd">
-                          <textarea style="display:none;" id="ts"></textarea>
-                      </div>
+                      
 
                 </div>
             </div>
