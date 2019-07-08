@@ -22,3 +22,7 @@ Route::prefix('test')->group(function ()
   Route::get('redis','TestController@redisTest');
   Route::get('mysql','TestController@mysqlTest');
 });
+
+Auth::routes(['register' => false]);
+
+Route::get('/admin', 'HomeController@index')->name('home');
