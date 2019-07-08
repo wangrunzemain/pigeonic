@@ -15,8 +15,6 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('phpinfo','MemberController@test');
-
 Route::prefix('test')->group(function ()
 {
   Route::get('redis','TestController@redisTest');
@@ -25,4 +23,6 @@ Route::prefix('test')->group(function ()
 
 Auth::routes(['register' => false]);
 
-Route::get('/admin', 'HomeController@index')->name('home');
+Route::get('/admin', 'AdminController@index')->middleware('auth');
+
+Route::get('/admin/release','ContentController@release_create')->middleware("auth");
