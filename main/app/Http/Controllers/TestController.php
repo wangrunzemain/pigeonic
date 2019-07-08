@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Redis;
 use DB;
+use App\Target;
 
 class TestController extends Controller
 {
@@ -31,20 +32,16 @@ class TestController extends Controller
       return 'Write : failed';
     }
   }
-  
+
   public function mysqlTest ()
   {
-    $before_unit = DB::select('select * from TestForm where target = ?',[0]);
-    foreach($before_unit as $before_each)
-    {
-      $before = $before_each->target;
-    }
-    DB::update('update TestForm set target = 1 where target = ?',[0]);
-    $result_unit = DB::select('select * from TestForm where target = ?',[1]);
-        foreach($result_unit as $result_each)
-        {
-          $result = $result_each->target;
-        }
+    $Target = Target::find(0);
+    $before = $Target->target;
+    $Target->target = '1';
+    $Target->save();
+    $after = Target::find(0)->target;
+    $Target->target = '0';
+    $Target->save();
     if ($before == 0)
     {
       echo 'Read : succeed <br />';
@@ -53,7 +50,7 @@ class TestController extends Controller
     {
       echo 'Read : failed <br />';
      }
-    if ($result == 1)
+    if ($after == 1)
     {
       return 'Write : succeed';
     }
