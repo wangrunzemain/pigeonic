@@ -1,6 +1,18 @@
 @extends('layouts.app')
+<link rel="stylesheet" href="/editormd/css/editormd.css" />
 <script src="https://cdn.bootcss.com/markdown.js/0.5.0/markdown.min.js"></script>
 <script src="http://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css"></script>
+<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="/editormd/editormd.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+        var editor = editormd("test-editor", {
+            // width  : "100%",
+            // height : "100%",
+            path   : "/editormd/lib/"
+        });
+    });
+</script>
 @section('head')
 @endsection
 
@@ -18,11 +30,27 @@
                         </div>
                     @endif
                     <form method="post" action="admin/release_store">
-                      标题：<input type="text" name="title">
-                      <br />
-                      权重：<input type="numer" name="weights" min="0" max="99">（0-99，数字越大，权重越高）
-                      <br />
-                      标签：<input list="browsers">
+                      <div class="form-group row">
+                        <label for="title" class="col-md-4 col-form-label text-md-right">发布者</label>
+                        <div class="col-md-6">
+                          <input class="form-control" type="text" name="author" value="{{$username}}" readonly="readonly">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="title" class="col-md-4 col-form-label text-md-right">标题：</label>
+                        <div class="col-md-6">
+                          <input class="form-control" type="text" name="title">
+                        </div>
+                      </div>
+                      <div class="form-group row">
+                        <label for="weights" class="col-md-4 col-form-label text-md-right">权重：</label>
+                        <div class="col-md-6">
+                          <input class="form-control" type="numer" name="weights" min="0" max="99">
+                        </div>
+                      </div>
+                        <div class="form-group row">
+                          <label for="label" class="col-md-4 col-form-label text-md-right">标签：</label>
+                          <div class="col-md-6"><input name="label" class="form-control" list="browsers">
                             <datalist id="browsers">
                               <option value="第五音分部">
                               <option value="游戏相关">
@@ -33,11 +61,20 @@
                               <option value="同人图">
                               <option value="杂谈">
                             </datalist>
-                      <br />
+                          </div>
+                        </div>
+                      <div id="test-editor">
+                        <textarea style="display:none;" name="content">
+                        </textarea>
+                      </div>
+                      <div class="form-group row mb-0">
+                          <div class="col-md-8 offset-md-4">
+                              <button type="submit" class="btn btn-primary">
+                                  导入
+                              </button>
+                          </div>
+                    </form>
                 </div>
-              <form action="" method="post">
-               <textarea rows="10" cols="30"></textarea>
-               <input type="submit" value="Submit" />
               </form>
            </div>
        </div>

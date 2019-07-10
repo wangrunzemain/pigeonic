@@ -16,7 +16,7 @@
 
                     Hello, {{Auth::user()->name}}.
                     <br />
-                    <a href="admin/release">发布新内容</a>
+                    <a href="admin/release_create">发布新内容</a>
                     <br />
                     <a href="admin/delete">删除内容</a>
 
