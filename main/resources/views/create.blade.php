@@ -34,11 +34,13 @@
                               <option value="杂谈">
                             </datalist>
                       <br />
-                      
-
                 </div>
-            </div>
-        </div>
-    </div>
+              <form action="" method="post">
+               <textarea rows="10" cols="30"></textarea>
+               <input type="submit" value="Submit" />
+              </form>
+           </div>
+       </div>
+   </div>
 </div>
 @endsection
