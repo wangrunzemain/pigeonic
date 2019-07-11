@@ -26,3 +26,5 @@ Auth::routes(['register' => false]);
 Route::get('/admin', 'AdminController@index')->middleware('auth');
 
 Route::get('/admin/release_create','ContentController@release_create')->middleware('auth');
+
+Route::post('/admin/release_store','ContentController@release_store')->middleware('auth');

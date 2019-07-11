@@ -29,9 +29,10 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <form method="post" action="admin/release_store">
+                    <form method="post" action="release_store">
+                      @csrf
                       <div class="form-group row">
-                        <label for="title" class="col-md-4 col-form-label text-md-right">发布者</label>
+                        <label for="title" class="col-md-4 col-form-label text-md-right">发布者:</label>
                         <div class="col-md-6">
                           <input class="form-control" type="text" name="author" value="{{$username}}" readonly="readonly">
                         </div>
