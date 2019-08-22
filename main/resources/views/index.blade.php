@@ -54,16 +54,16 @@
      <div class="container">
           <div class="row">
 <div class="col-md-8 col-sm-12 col-lg-12">
-           <div class="about-thumb">
+          <div class="about-thumb">
                          <!-- SECTION TITLE -->
                          <div class="wow fadeInUp section-title" data-wow-delay="0.6s">
                               <h2 class="text-center">关于这个网站</h2>
-</div>
-                         <div class="wow fadeInUp" data-wow-delay="0.8s">
-                             <h3 class="text-justify">
-                                 我建立这个网站旨在帮助更多的妄想症:Deliver Me的玩家，可以更加方便彼此交流、利用这个网站获取许多信息及资源。我相信很多朋友在最开始接触这个圈子的时候，都遇到了一个问题，那便是如何寻找同好、资源。所以，我想借助这个网站来聚集所有同好，发布各种资源供所有人使用。同时，这个网站也诚邀各部及组织参与，拥有自己的专栏发布相关咨询、攻略、小游戏等等。最后，科技部也欢迎各部，组织或其他社团申请自己的专栏，让更多人了解及根据自己的喜好加入。若有任何问题，请联系部长（QQ号：1956821041）</h3>
-                        <p class="text-right">---2018.8.20 第五音科技部</p>
-							 <!--h4>注意：此网站还未完工，继续向下翻为与第五音无关的页面</h4-->
+<                        </div>
+                    <div class="wow fadeInUp" data-wow-delay="0.8s">
+                              <h3 class="text-justify">
+                                   我建立这个网站旨在帮助更多的妄想症:Deliver Me的玩家，可以更加方便彼此交流、利用这个网站获取许多信息及资源。我相信很多朋友在最开始接触这个圈子的时候，都遇到了一个问题，那便是如何寻找同好、资源。所以，我想借助这个网站来聚集所有同好，发布各种资源供所有人使用。同时，这个网站也诚邀各部及组织参与，拥有自己的专栏发布相关咨询、攻略、小游戏等等。最后，科技部也欢迎各部，组织或其他社团申请自己的专栏，让更多人了解及根据自己的喜好加入。若有任何问题，请联系部长（QQ号：1956821041）</h3>
+                              <p class="text-right">---2018.8.20 第五音科技部</p>
+							<!--h4>注意：此网站还未完工，继续向下翻为与第五音无关的页面</h4-->
                          </div>
                     </div>
                </div>
@@ -83,58 +83,58 @@
                     <p>将一些介绍和攻略还有文件之类的分了一下类别</p>
                </div>
 
-            <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
-                 <div class="service-thumb">
-                         <a href="others/01/index.html"><h2><font color="#9966FF">第五音分部</font></h2></a>
-					 <p>来看一下第五音的其他部门</p>
-                 </div>
+               <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-thumb">
+                         <a href="fenbu"><h2><font color="#9966FF">第五音分部</font></h2></a>
+					<p>来看一下第五音的其他部门</p>
+                    </div>
                </div>
 
                <div class="col-md-3 col-sm-7 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-thumb">
-                          <a href="others/02/index.html"><h2><font color="#9966FF">游戏相关</font></h2></a>
+                         <a href="youxi"><h2><font color="#9966FF">游戏相关</font></h2></a>
                          <p>游戏的一些攻略之类的东西</p>
                     </div>
                </div>
 
                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-thumb">
-                         <a href="others/03/index.html"><h2><font color="#9966FF">动画</font></h2></a>
+                         <a href="donghua"><h2><font color="#9966FF">动画</font></h2></a>
                          <p>一些大佬做的MMD等很精彩的</p>
                     </div>
                </div>
 
                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="service-thumb">
-                         <a href="others/02/index.html"><h2><font color="#9966FF">小说&同人文</fo></h2></a>
+                         <a href="xiaoshuo"><h2><font color="#9966FF">小说&同人文</fo></h2></a>
                          <p>妄想症小说等的一些东西</p>
                     </div>
                </div>
                
                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="service-thumb">
-                         <a href="others/05/index.html"><h2><font color="#9966FF">音乐</fo></h2></a>
+                         <a href="yinyue"><h2><font color="#9966FF">音乐</fo></h2></a>
                          <p>妄想症系列的一些曲子</p>
                     </div>
                </div>
                
                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="service-thumb">
-                         <a href="others/06/index.html"><h2><font color="#9966FF">周边</fo></h2></a>
+                         <a href="zhoubian"><h2><font color="#9966FF">周边</fo></h2></a>
                          <p>自制小物件等的周边小东西（均为网上的）</p>
                     </div>
                </div>
                
                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="service-thumb">
-                         <a href="others/07/index.html"><h2><font color="#9966FF">同人图</fo></h2></a>
+                         <a href="tonren"><h2><font color="#9966FF">同人图</fo></h2></a>
                          <p>从同人图部和其他途径的图片欣赏</p>
                     </div>
                </div>
                
                <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="service-thumb">
-                         <a href="others/08/index.html"><h2><font color="#9966FF">杂谈</fo></h2></a>
+                         <a href="zatan"><h2><font color="#9966FF">杂谈</fo></h2></a>
                          <p>一些其他的无法归类的东西，或者自己瞎写点啥的地方</p>
                     </div>
                </div>
