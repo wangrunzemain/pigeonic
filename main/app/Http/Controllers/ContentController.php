@@ -24,4 +24,21 @@ class ContentController extends Controller
     $content->timestamp = time();
     $content->save();
   }
+
+  function content($where)
+  {
+    switch($where)
+    {
+      case 0:return view('fenbu');break;
+      case 1:return view('youxi');break;
+      case 2:return view('donghua');break;
+      case 3:return view('xiaoshuo');break;
+      case 4:return view('yinyue');break;
+      case 5:return view('zhoubian');break;
+      case 6:return view('tongren');break;
+      case 7:return view('zatan');break;
+    }
+  }
+  
+  
 }
