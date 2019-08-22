@@ -18,7 +18,7 @@
                               <div class="work-thumb-overlay">
                                    <h2 class="white-color">“革命”</h2>
                                    <a><h2><font color="#000000">作者：若草青空</font></h2></a>
-                                   <a href="01.html"><h2><font color="#000000">点我查看详情</font></h2></a>
+                                   <a href="/ext/TR-01.html"><h2><font color="#000000">点我查看详情</font></h2></a>
                               </div>
                               <img src="/images/6/fm.jpg" class="img-responsive" alt="Work 1">
                          </a>
@@ -31,7 +31,7 @@
                               <div class="work-thumb-overlay">
                                    <h4 class="white-color">颜语的橡皮章</h4>
 							<h4 class="white-color">作者：肆染</h>
-                                   <a href="02.html"><h2><font color="#000000">点我查看详情</font></h2></a>
+                                   <a href="/ext/TR-02.html"><h2><font color="#000000">点我查看详情</font></h2></a>
                               </div>
                               <img src="/images/6/2/fm.jpg" class="img-responsive" alt="Work 1">
                          </a>

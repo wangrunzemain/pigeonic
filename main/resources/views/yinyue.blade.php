@@ -17,7 +17,7 @@
                     <div class="work-thumb">
                               <div class="work-thumb-overlay">
                                    <h2 class="white-color">妄想症音乐</h2>
-                                   <a href="01.html"><h2><font color="#000000">点我查看详情</font></h2></a>
+                                   <a href="/ext/MS-01.html"><h2><font color="#000000">点我查看详情</font></h2></a>
                               </div>
                               <img src="/images/4/101.jpg" class="img-responsive" alt="Work 1">
                          </a>

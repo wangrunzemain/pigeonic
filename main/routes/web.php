@@ -29,4 +29,4 @@ Route::get('/admin/release_create','ContentController@release_create')->middlewa
 
 Route::post('/admin/release_store','ContentController@release_store')->middleware('auth');
 
-Route::get('/content/{where}','ContentController@content');
+Route::get('/content/{first}/{second?}','ContentController@content');
