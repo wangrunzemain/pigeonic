@@ -9,7 +9,7 @@
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<title>第五音的其他分部</title>
+<title>{{ $title }}</title>
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/animate.css">
 <link rel="stylesheet" href="/css/magnific-popup.css">
@@ -36,7 +36,7 @@
 
             <div class="col-md-offset-5 col-md-7 col-sm-12">
                     <div class="home-thumb">
-                        <h1 class="wow fadeInUp" data-wow-delay="0.4s">第五音的其他部门</h1>
+                        <h1 class="wow fadeInUp" data-wow-delay="0.4s">{{ $title }}</h1>
                         <a href="javascript:history.go(-1);"><h3><font color="#D9D9F3">返回上一页面</font></h3></a>
                     </div>
             </div>
