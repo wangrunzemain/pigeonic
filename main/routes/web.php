@@ -21,8 +21,6 @@ Route::prefix('test')->group(function ()
   Route::get('mysql','TestController@mysqlTest');
 });
 
-Auth::routes(['register' => false]);
-
 Route::get('/admin', 'AdminController@index')->middleware('auth');
 
 Route::get('/admin/release_create','ContentController@release_create')->middleware('auth');
@@ -30,3 +28,5 @@ Route::get('/admin/release_create','ContentController@release_create')->middlewa
 Route::post('/admin/release_store','ContentController@release_store')->middleware('auth');
 
 Route::get('/content/{first}/{second?}','ContentController@content');
+
+Auth::routes(['register' => false]);
